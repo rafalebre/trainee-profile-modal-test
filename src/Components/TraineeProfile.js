@@ -21,7 +21,7 @@ const TraineeProfile = () => {
         <p>Age: 25</p>
         <p>Email: spider@man.com</p>
         <p>Body Type: Athletic</p>
-        <p>About: I love staying fit, working out, buildering, jumping around and stuff like that.</p>
+        <p>About: Trying to live as healthy as I can.</p>
       </div>
       <div>
         <h2>This will be in the coach page</h2>

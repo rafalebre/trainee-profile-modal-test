@@ -8,7 +8,7 @@ const TraineeProfileModal = ({ trainee }) => {
     age: 25,
     email: 'john.doe@example.com',
     bodyType: 'Athletic',
-    about: 'I love working out and staying fit.',
+    about: 'Trying to live as healthy as I can',
     imageURL: 'https://via.placeholder.com/150'
   };
 
