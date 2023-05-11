@@ -1,8 +1,7 @@
-// src/components/TraineeProfileModal.js
 import React from 'react';
 
 const TraineeProfileModal = ({ trainee }) => {
-  // Placeholder data for now
+  // Placeholder data for now, just to make the modal render with some content
   const placeholderTrainee = {
     name: 'John Doe',
     age: 25,
@@ -14,8 +13,10 @@ const TraineeProfileModal = ({ trainee }) => {
 
   const { name, age, email, bodyType, about, imageURL } = trainee || placeholderTrainee;
 
-  const greenColor = '#198754'; // Bootstrap success color
+  const greenColor = '#198754'; // Bootstrap button success color to match 
 
+  /* inline styles to avoid creating extra files for now; 
+  Following color scheme from the logo */
   return (
     <div
       className="card"

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import TraineeProfileModal from './TraineeProfileModal';
 
-{/* This hover will be used in the coach page */ }
+/* This hover will be used in the coach page */ 
 const TraineeProfile = () => {
   const [showModal, setShowModal] = useState(false);
 
